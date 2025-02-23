@@ -1,0 +1,44 @@
+# Compiled object files, static and dynamic libs, executables
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# Debugging files
+*.pdb
+*.ilk
+*.idb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# MinGW specific
+*.elf
+*.map
+*.d
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake-build-debug/
+build/
+Debug/
+Release/
+
+# clangd
+.clangd
+.clang-tidy
+.clang-format
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
